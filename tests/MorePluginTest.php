@@ -16,7 +16,6 @@ class MorePluginTest extends TestCase
         $tongs = new Tongs($this->fixture('basic'));
         $tongs->use(new MorePlugin($tongs));
         $files = $tongs->build();
-        dd($files);
 
         $this->assertFiles($this->fixture('basic/files.json'), $files);
         $this->assertDirEquals($this->fixture('basic/expected'), $this->fixture('basic/build'));

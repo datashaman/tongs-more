@@ -1,17 +1,19 @@
 {
   "hello.html": {
-    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<!--more-->\n<p>This is the second paragraph.</p>\n",
     "mode": "0644",
-    "path": "hello.html"
+    "path": "hello.html",
+    "excerpt": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>"
   },
   "nomore.html": {
-    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>\n",
     "mode": "0644",
     "path": "nomore.html"
   },
   "space.html": {
-    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "contents": "<h1>Hello World!</h1>\n\n<p>This is the first paragraph.</p>\n\n<!--more-->\n\n<p>This is the second paragraph.</p>\n",
     "mode": "0644",
-    "path": "space.html"
+    "path": "space.html",
+    "excerpt": "<h1>Hello World!</h1>\n\n<p>This is the first paragraph.</p>"
   }
 }
