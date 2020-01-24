@@ -1,0 +1,40 @@
+{
+  "name": "datashaman/tongs-more",
+  "type": "library",
+  "description": "More plugin for Tongs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marlin Forbes",
+      "email": "marlinf@datashaman.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "datashaman/tongs": "^0.2.1",
+    "phpunit/phpunit": "^8.5"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "tongs": {
+      "plugins": {
+        "more": "Datashaman\\Tongs\\Plugins\\MorePlugin"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Datashaman\\Tongs\\Plugins\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}

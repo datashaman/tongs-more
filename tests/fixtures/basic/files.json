@@ -1,0 +1,17 @@
+{
+  "hello.html": {
+    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "mode": "0644",
+    "path": "hello.html"
+  },
+  "nomore.html": {
+    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "mode": "0644",
+    "path": "nomore.html"
+  },
+  "space.html": {
+    "contents": "<h1>Hello World!</h1>\n<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>",
+    "mode": "0644",
+    "path": "space.html"
+  }
+}
