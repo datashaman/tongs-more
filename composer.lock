@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40b2500951e2b845c08648eb9b85c19b",
+    "content-hash": "d50ae2029a57ea158f7941a71a5b7ca8",
     "packages": [],
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "0.2.1",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "eeb63cba229de38f820feaa93cc9f75cce6b6c4e"
+                "reference": "38344ba106fd68a226c98e99a6a416f1200d5223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/eeb63cba229de38f820feaa93cc9f75cce6b6c4e",
-                "reference": "eeb63cba229de38f820feaa93cc9f75cce6b6c4e",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/38344ba106fd68a226c98e99a6a416f1200d5223",
+                "reference": "38344ba106fd68a226c98e99a6a416f1200d5223",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "metalsmith",
                 "static site generator"
             ],
-            "time": "2020-01-24T13:08:55+00:00"
+            "time": "2020-01-24T18:14:37+00:00"
         },
         {
             "name": "datashaman/tongs-permalinks",
