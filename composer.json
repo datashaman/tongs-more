@@ -2,6 +2,14 @@
   "name": "datashaman/tongs-more",
   "type": "library",
   "description": "More plugin for Tongs",
+  "keywords": [
+    "laravel",
+    "ssg",
+    "static-site",
+    "static-site-generator",
+    "tongs",
+    "tongs-plugin"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -9,8 +17,7 @@
       "email": "marlinf@datashaman.com"
     }
   ],
-  "require": {
-  },
+  "require": {},
   "require-dev": {
     "datashaman/tongs": "0.3.*",
     "phpunit/phpunit": "^8.5"
