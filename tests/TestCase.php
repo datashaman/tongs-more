@@ -35,7 +35,6 @@ abstract class TestCase extends BaseTestCase
                     return [
                         $file->getRelativePathname() => [
                             'contents' => trim($file->getContents()),
-                            'mode' => substr(decoct($file->getPerms()), -4),
                         ],
                     ];
                 }
@@ -47,7 +46,6 @@ abstract class TestCase extends BaseTestCase
                     return [
                         $file->getRelativePathname() => [
                             'contents' => trim($file->getContents()),
-                            'mode' => substr(decoct($file->getPerms()), -4),
                         ],
                     ];
                 }

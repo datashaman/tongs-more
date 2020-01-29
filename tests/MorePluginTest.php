@@ -14,16 +14,16 @@ class MorePluginTest extends TestCase
     public function testHandle()
     {
         $tongs = new Tongs($this->fixture('basic'));
-        $tongs->use(new MorePlugin($tongs));
+        $tongs->use(new MorePlugin());
         $files = $tongs->build();
 
         $this->assertFiles($this->fixture('basic/files.json'), $files);
         $this->assertDirEquals($this->fixture('basic/expected'), $this->fixture('basic/build'));
     }
 
-    protected function assertFiles(string $expected, Collection $actual)
+    protected function assertFiles(string $expected, array $actual)
     {
         $expected = json_decode(File::get($expected), true);
-        $this->assertEquals($expected, $actual->all());
+        $this->assertEquals($expected, $actual);
     }
 }
